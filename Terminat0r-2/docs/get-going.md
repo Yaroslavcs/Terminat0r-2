@@ -20,14 +20,17 @@ cd Terminat0r-2
 
 ## backend
 
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r backend/requirements.txt
-uvicorn backend.main:app --reload --port 8000
+```powershell
+.\run-backend.ps1
 ```
 
-run from project root
+або вручну:
+```powershell
+py -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r backend\requirements.txt
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000
+```
 
 ---
 

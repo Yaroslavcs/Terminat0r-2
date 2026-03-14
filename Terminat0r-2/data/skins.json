@@ -1,0 +1,26 @@
+{
+  "meta": { "version": "1.1", "description": "Скіни маскота: рівень розблокування, золото (квести), IAP" },
+  "wheel_skins": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "skins": [
+    { "id": 1, "theme": "starter", "title": "Starter", "level_unlock": 1, "price": 0, "starter": true },
+    { "id": 2, "theme": "explorer", "title": "Explorer", "level_unlock": 2, "price": 1500 },
+    { "id": 3, "theme": "warrior", "title": "Warrior", "level_unlock": 3, "price": 2000 },
+    { "id": 4, "theme": "mage", "title": "Mage", "level_unlock": 4, "price": 2500 },
+    { "id": 5, "theme": "chef", "title": "Chef", "level_unlock": 5, "price": 3000 },
+    { "id": 6, "theme": "scholar", "title": "Scholar", "level_unlock": 6, "price": 3500 },
+    { "id": 7, "theme": "athlete", "title": "Athlete", "level_unlock": 7, "price": 4000 },
+    { "id": 8, "theme": "gardener", "title": "Gardener", "level_unlock": 8, "price": 4500 },
+    { "id": 9, "theme": "artist", "title": "Artist", "level_unlock": 9, "price": 5000 },
+    { "id": 10, "theme": "merchant", "title": "Merchant", "level_unlock": 10, "price": 5500 },
+    { "id": 11, "theme": "healer", "title": "Healer", "level_unlock": 11, "price": 6000 },
+    { "id": 12, "theme": "ranger", "title": "Ranger", "level_unlock": 12, "price": 6500 },
+    { "id": 13, "theme": "blacksmith", "title": "Blacksmith", "level_unlock": 13, "price": 7000 },
+    { "id": 14, "theme": "bard", "title": "Bard", "level_unlock": 14, "price": 7500 },
+    { "id": 15, "theme": "alchemist", "title": "Alchemist", "level_unlock": 15, "price": 8000 },
+    { "id": 16, "theme": "knight", "title": "Knight", "level_unlock": 16, "price": 8500 },
+    { "id": 17, "theme": "rogue", "title": "Rogue", "level_unlock": 17, "price": 9000 },
+    { "id": 18, "theme": "druid", "title": "Druid", "level_unlock": 18, "price": 9500 },
+    { "id": 19, "theme": "monk", "title": "Monk", "level_unlock": 19, "price": 10000 },
+    { "id": 20, "theme": "paladin", "title": "Paladin", "level_unlock": 20, "price": 12000 }
+  ]
+}

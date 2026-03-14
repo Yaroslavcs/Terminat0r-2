@@ -1,0 +1,22 @@
+[
+  {"level": 1, "theme": "starter", "costume": "basic white and blue robot suit", "image": "mascot-01-starter.png"},
+  {"level": 2, "theme": "explorer", "costume": "explorer hat, backpack, compass", "image": "mascot-02-explorer.png"},
+  {"level": 3, "theme": "warrior", "costume": "armor, sword, helmet", "image": "mascot-03-warrior.png"},
+  {"level": 4, "theme": "mage", "costume": "wizard robe, pointed hat, staff", "image": "mascot-04-mage.png"},
+  {"level": 5, "theme": "chef", "costume": "chef hat, apron, spatula", "image": "mascot-05-chef.png"},
+  {"level": 6, "theme": "scholar", "costume": "glasses, graduation cap, books", "image": "mascot-06-scholar.png"},
+  {"level": 7, "theme": "athlete", "costume": "sports jersey, sneakers, medal", "image": "mascot-07-athlete.png"},
+  {"level": 8, "theme": "gardener", "costume": "straw hat, overalls, watering can", "image": "mascot-08-gardener.png"},
+  {"level": 9, "theme": "artist", "costume": "beret, paint palette, brush", "image": "mascot-09-artist.png"},
+  {"level": 10, "theme": "merchant", "costume": "vest, coin purse, scales", "image": "mascot-10-merchant.png"},
+  {"level": 11, "theme": "healer", "costume": "white robe, medical cross, herbs", "image": "mascot-11-healer.png"},
+  {"level": 12, "theme": "ranger", "costume": "hood, bow, quiver", "image": "mascot-12-ranger.png"},
+  {"level": 13, "theme": "blacksmith", "costume": "leather apron, hammer, anvil", "image": "mascot-13-blacksmith.png"},
+  {"level": 14, "theme": "bard", "costume": "feathered hat, lute, scroll", "image": "mascot-14-bard.png"},
+  {"level": 15, "theme": "alchemist", "costume": "lab coat, potions, flask", "image": "mascot-15-alchemist.png"},
+  {"level": 16, "theme": "knight", "costume": "full armor, shield, sword", "image": "mascot-16-knight.png"},
+  {"level": 17, "theme": "rogue", "costume": "dark cloak, daggers, mask", "image": "mascot-17-rogue.png"},
+  {"level": 18, "theme": "druid", "costume": "leaf robe, staff, vines", "image": "mascot-18-druid.png"},
+  {"level": 19, "theme": "monk", "costume": "simple robe, prayer beads", "image": "mascot-19-monk.png"},
+  {"level": 20, "theme": "paladin", "costume": "holy armor, glowing shield", "image": "mascot-20-paladin.png"}
+]

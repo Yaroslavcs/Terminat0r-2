@@ -41,3 +41,27 @@ class EventLog(Base):
     event_name = Column(String(128), nullable=True)
     payload = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class UserSkin(Base):
+    """Скіни маскота, що належать користувачу."""
+    __tablename__ = "user_skins"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    device_id = Column(String(128), nullable=False, index=True)
+    skin_id = Column(Integer, nullable=False)
+    source = Column(String(32), default="wheel")  # wheel | purchase | starter
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class RoutineCompletion(Base):
+    """Виконання щоденної/тижневої справи та отримання бонусу за всі 5."""
+    __tablename__ = "routine_completions"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    device_id = Column(String(128), nullable=False, index=True)
+    routine_id = Column(String(64), nullable=False)
+    frequency = Column(String(16), nullable=False)  # daily | weekly
+    period_key = Column(String(32), nullable=False)  # YYYY-MM-DD | YYYY-Wnn
+    reward_claimed = Column(Integer, default=0)  # 0=тільки справу, 1=бонус за всі 5
+    created_at = Column(DateTime, default=datetime.utcnow)

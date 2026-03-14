@@ -49,6 +49,27 @@ def _call_openai_vision(task: str, hint: str, image_b64: str) -> str:
     return response.choices[0].message.content.strip()
 
 
+def _call_groq_vision(task: str, hint: str, image_b64: str) -> str:
+    from openai import OpenAI
+
+    client = OpenAI(api_key=settings.groq_api_key, base_url="https://api.groq.com/openai/v1")
+    prompt = (
+        _load_prompt()
+        .replace("{task_description}", task)
+        .replace("{verification_hint}", hint)
+    )
+    response = client.chat.completions.create(
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
+        messages=[
+            {"role": "user", "content": [
+                {"type": "text", "text": prompt},
+                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}},
+            ]},
+        ],
+    )
+    return response.choices[0].message.content.strip()
+
+
 def _parse_json(text: str) -> dict:
     text = text.strip()
     text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -60,7 +81,9 @@ def verify_photo(task_description: str, verification_hint: str, image_b64: str) 
     if not image_b64:
         return {"verified": True, "confidence": 0.5, "message": "No photo — trust mode", "reward_multiplier": 0.8}
 
-    if settings.ai_provider == "openai" and settings.openai_api_key:
+    if settings.ai_provider == "groq" and settings.groq_api_key:
+        raw = _call_groq_vision(task_description, verification_hint, image_b64)
+    elif settings.ai_provider == "openai" and settings.openai_api_key:
         raw = _call_openai_vision(task_description, verification_hint, image_b64)
     else:
         if not settings.gemini_api_key:

@@ -1,0 +1,602 @@
+[
+  {
+    "level": 1,
+    "theme": "starter",
+    "title": "Level 1 Starter",
+    "xp_required": 100
+  },
+  {
+    "level": 2,
+    "theme": "explorer",
+    "title": "Level 2 Explorer",
+    "xp_required": 300
+  },
+  {
+    "level": 3,
+    "theme": "warrior",
+    "title": "Level 3 Warrior",
+    "xp_required": 600
+  },
+  {
+    "level": 4,
+    "theme": "mage",
+    "title": "Level 4 Mage",
+    "xp_required": 1000
+  },
+  {
+    "level": 5,
+    "theme": "chef",
+    "title": "Level 5 Chef",
+    "xp_required": 1500
+  },
+  {
+    "level": 6,
+    "theme": "scholar",
+    "title": "Level 6 Scholar",
+    "xp_required": 2100
+  },
+  {
+    "level": 7,
+    "theme": "athlete",
+    "title": "Level 7 Athlete",
+    "xp_required": 2800
+  },
+  {
+    "level": 8,
+    "theme": "gardener",
+    "title": "Level 8 Gardener",
+    "xp_required": 3600
+  },
+  {
+    "level": 9,
+    "theme": "artist",
+    "title": "Level 9 Artist",
+    "xp_required": 4500
+  },
+  {
+    "level": 10,
+    "theme": "merchant",
+    "title": "Level 10 Merchant",
+    "xp_required": 5500
+  },
+  {
+    "level": 11,
+    "theme": "healer",
+    "title": "Level 11 Healer",
+    "xp_required": 6600
+  },
+  {
+    "level": 12,
+    "theme": "ranger",
+    "title": "Level 12 Ranger",
+    "xp_required": 7800
+  },
+  {
+    "level": 13,
+    "theme": "blacksmith",
+    "title": "Level 13 Blacksmith",
+    "xp_required": 9100
+  },
+  {
+    "level": 14,
+    "theme": "bard",
+    "title": "Level 14 Bard",
+    "xp_required": 10500
+  },
+  {
+    "level": 15,
+    "theme": "alchemist",
+    "title": "Level 15 Alchemist",
+    "xp_required": 12000
+  },
+  {
+    "level": 16,
+    "theme": "knight",
+    "title": "Level 16 Knight",
+    "xp_required": 13600
+  },
+  {
+    "level": 17,
+    "theme": "rogue",
+    "title": "Level 17 Rogue",
+    "xp_required": 15300
+  },
+  {
+    "level": 18,
+    "theme": "druid",
+    "title": "Level 18 Druid",
+    "xp_required": 17100
+  },
+  {
+    "level": 19,
+    "theme": "monk",
+    "title": "Level 19 Monk",
+    "xp_required": 19000
+  },
+  {
+    "level": 20,
+    "theme": "paladin",
+    "title": "Level 20 Paladin",
+    "xp_required": 21000
+  },
+  {
+    "level": 21,
+    "theme": "necromancer",
+    "title": "Level 21 Necromancer",
+    "xp_required": 23100
+  },
+  {
+    "level": 22,
+    "theme": "summoner",
+    "title": "Level 22 Summoner",
+    "xp_required": 25300
+  },
+  {
+    "level": 23,
+    "theme": "smith",
+    "title": "Level 23 Smith",
+    "xp_required": 27600
+  },
+  {
+    "level": 24,
+    "theme": "weaver",
+    "title": "Level 24 Weaver",
+    "xp_required": 30000
+  },
+  {
+    "level": 25,
+    "theme": "miner",
+    "title": "Level 25 Miner",
+    "xp_required": 32500
+  },
+  {
+    "level": 26,
+    "theme": "fisher",
+    "title": "Level 26 Fisher",
+    "xp_required": 35100
+  },
+  {
+    "level": 27,
+    "theme": "hunter",
+    "title": "Level 27 Hunter",
+    "xp_required": 37800
+  },
+  {
+    "level": 28,
+    "theme": "farmer",
+    "title": "Level 28 Farmer",
+    "xp_required": 40600
+  },
+  {
+    "level": 29,
+    "theme": "baker",
+    "title": "Level 29 Baker",
+    "xp_required": 43500
+  },
+  {
+    "level": 30,
+    "theme": "scribe",
+    "title": "Level 30 Scribe",
+    "xp_required": 46500
+  },
+  {
+    "level": 31,
+    "theme": "oracle",
+    "title": "Level 31 Oracle",
+    "xp_required": 49600
+  },
+  {
+    "level": 32,
+    "theme": "herald",
+    "title": "Level 32 Herald",
+    "xp_required": 52800
+  },
+  {
+    "level": 33,
+    "theme": "champion",
+    "title": "Level 33 Champion",
+    "xp_required": 56100
+  },
+  {
+    "level": 34,
+    "theme": "veteran",
+    "title": "Level 34 Veteran",
+    "xp_required": 59500
+  },
+  {
+    "level": 35,
+    "theme": "legend",
+    "title": "Level 35 Legend",
+    "xp_required": 63000
+  },
+  {
+    "level": 36,
+    "theme": "master",
+    "title": "Level 36 Master",
+    "xp_required": 66600
+  },
+  {
+    "level": 37,
+    "theme": "novice",
+    "title": "Level 37 Novice",
+    "xp_required": 70300
+  },
+  {
+    "level": 38,
+    "theme": "apprentice",
+    "title": "Level 38 Apprentice",
+    "xp_required": 74100
+  },
+  {
+    "level": 39,
+    "theme": "adept",
+    "title": "Level 39 Adept",
+    "xp_required": 78000
+  },
+  {
+    "level": 40,
+    "theme": "expert",
+    "title": "Level 40 Expert",
+    "xp_required": 82000
+  },
+  {
+    "level": 41,
+    "theme": "virtuoso",
+    "title": "Level 41 Virtuoso",
+    "xp_required": 86100
+  },
+  {
+    "level": 42,
+    "theme": "sage",
+    "title": "Level 42 Sage",
+    "xp_required": 90300
+  },
+  {
+    "level": 43,
+    "theme": "treasure_hunter",
+    "title": "Level 43 Treasure Hunter",
+    "xp_required": 94600
+  },
+  {
+    "level": 44,
+    "theme": "dragon_slayer",
+    "title": "Level 44 Dragon Slayer",
+    "xp_required": 99000
+  },
+  {
+    "level": 45,
+    "theme": "peacekeeper",
+    "title": "Level 45 Peacekeeper",
+    "xp_required": 103500
+  },
+  {
+    "level": 46,
+    "theme": "voyager",
+    "title": "Level 46 Voyager",
+    "xp_required": 108100
+  },
+  {
+    "level": 47,
+    "theme": "settler",
+    "title": "Level 47 Settler",
+    "xp_required": 112800
+  },
+  {
+    "level": 48,
+    "theme": "craftsman",
+    "title": "Level 48 Craftsman",
+    "xp_required": 117600
+  },
+  {
+    "level": 49,
+    "theme": "inventor",
+    "title": "Level 49 Inventor",
+    "xp_required": 122500
+  },
+  {
+    "level": 50,
+    "theme": "philosopher",
+    "title": "Level 50 Philosopher",
+    "xp_required": 127500
+  },
+  {
+    "level": 51,
+    "theme": "scientist",
+    "title": "Level 51 Scientist",
+    "xp_required": 132600
+  },
+  {
+    "level": 52,
+    "theme": "architect",
+    "title": "Level 52 Architect",
+    "xp_required": 137800
+  },
+  {
+    "level": 53,
+    "theme": "musician",
+    "title": "Level 53 Musician",
+    "xp_required": 143100
+  },
+  {
+    "level": 54,
+    "theme": "painter",
+    "title": "Level 54 Painter",
+    "xp_required": 148500
+  },
+  {
+    "level": 55,
+    "theme": "sculptor",
+    "title": "Level 55 Sculptor",
+    "xp_required": 154000
+  },
+  {
+    "level": 56,
+    "theme": "poet",
+    "title": "Level 56 Poet",
+    "xp_required": 159600
+  },
+  {
+    "level": 57,
+    "theme": "storyteller",
+    "title": "Level 57 Storyteller",
+    "xp_required": 165300
+  },
+  {
+    "level": 58,
+    "theme": "trader",
+    "title": "Level 58 Trader",
+    "xp_required": 171100
+  },
+  {
+    "level": 59,
+    "theme": "diplomat",
+    "title": "Level 59 Diplomat",
+    "xp_required": 177000
+  },
+  {
+    "level": 60,
+    "theme": "spy",
+    "title": "Level 60 Spy",
+    "xp_required": 183000
+  },
+  {
+    "level": 61,
+    "theme": "guardian",
+    "title": "Level 61 Guardian",
+    "xp_required": 189100
+  },
+  {
+    "level": 62,
+    "theme": "sentinel",
+    "title": "Level 62 Sentinel",
+    "xp_required": 195300
+  },
+  {
+    "level": 63,
+    "theme": "elementalist",
+    "title": "Level 63 Elementalist",
+    "xp_required": 201600
+  },
+  {
+    "level": 64,
+    "theme": "frost_mage",
+    "title": "Level 64 Frost Mage",
+    "xp_required": 208000
+  },
+  {
+    "level": 65,
+    "theme": "fire_master",
+    "title": "Level 65 Fire Master",
+    "xp_required": 214500
+  },
+  {
+    "level": 66,
+    "theme": "storm_caller",
+    "title": "Level 66 Storm Caller",
+    "xp_required": 221100
+  },
+  {
+    "level": 67,
+    "theme": "earth_shaker",
+    "title": "Level 67 Earth Shaker",
+    "xp_required": 227800
+  },
+  {
+    "level": 68,
+    "theme": "shadow_walker",
+    "title": "Level 68 Shadow Walker",
+    "xp_required": 234600
+  },
+  {
+    "level": 69,
+    "theme": "light_bearer",
+    "title": "Level 69 Light Bearer",
+    "xp_required": 241500
+  },
+  {
+    "level": 70,
+    "theme": "dawn_seeker",
+    "title": "Level 70 Dawn Seeker",
+    "xp_required": 248500
+  },
+  {
+    "level": 71,
+    "theme": "twilight_guard",
+    "title": "Level 71 Twilight Guard",
+    "xp_required": 255600
+  },
+  {
+    "level": 72,
+    "theme": "wilderness_survivor",
+    "title": "Level 72 Wilderness Survivor",
+    "xp_required": 262800
+  },
+  {
+    "level": 73,
+    "theme": "urban_explorer",
+    "title": "Level 73 Urban Explorer",
+    "xp_required": 270100
+  },
+  {
+    "level": 74,
+    "theme": "cosmic_traveler",
+    "title": "Level 74 Cosmic Traveler",
+    "xp_required": 277500
+  },
+  {
+    "level": 75,
+    "theme": "time_keeper",
+    "title": "Level 75 Time Keeper",
+    "xp_required": 285000
+  },
+  {
+    "level": 76,
+    "theme": "dreamweaver",
+    "title": "Level 76 Dreamweaver",
+    "xp_required": 292600
+  },
+  {
+    "level": 77,
+    "theme": "reality_shaper",
+    "title": "Level 77 Reality Shaper",
+    "xp_required": 300300
+  },
+  {
+    "level": 78,
+    "theme": "soul_forger",
+    "title": "Level 78 Soul Forger",
+    "xp_required": 308100
+  },
+  {
+    "level": 79,
+    "theme": "mind_sculptor",
+    "title": "Level 79 Mind Sculptor",
+    "xp_required": 316000
+  },
+  {
+    "level": 80,
+    "theme": "blood_warrior",
+    "title": "Level 80 Blood Warrior",
+    "xp_required": 324000
+  },
+  {
+    "level": 81,
+    "theme": "iron_will",
+    "title": "Level 81 Iron Will",
+    "xp_required": 332100
+  },
+  {
+    "level": 82,
+    "theme": "golden_touch",
+    "title": "Level 82 Golden Touch",
+    "xp_required": 340300
+  },
+  {
+    "level": 83,
+    "theme": "silver_tongue",
+    "title": "Level 83 Silver Tongue",
+    "xp_required": 348600
+  },
+  {
+    "level": 84,
+    "theme": "emerald_heart",
+    "title": "Level 84 Emerald Heart",
+    "xp_required": 357000
+  },
+  {
+    "level": 85,
+    "theme": "ruby_spirit",
+    "title": "Level 85 Ruby Spirit",
+    "xp_required": 365500
+  },
+  {
+    "level": 86,
+    "theme": "sapphire_mind",
+    "title": "Level 86 Sapphire Mind",
+    "xp_required": 374100
+  },
+  {
+    "level": 87,
+    "theme": "diamond_soul",
+    "title": "Level 87 Diamond Soul",
+    "xp_required": 382800
+  },
+  {
+    "level": 88,
+    "theme": "phoenix_rising",
+    "title": "Level 88 Phoenix Rising",
+    "xp_required": 391600
+  },
+  {
+    "level": 89,
+    "theme": "tiger_eye",
+    "title": "Level 89 Tiger Eye",
+    "xp_required": 400500
+  },
+  {
+    "level": 90,
+    "theme": "wolf_spirit",
+    "title": "Level 90 Wolf Spirit",
+    "xp_required": 409500
+  },
+  {
+    "level": 91,
+    "theme": "eagle_vision",
+    "title": "Level 91 Eagle Vision",
+    "xp_required": 418600
+  },
+  {
+    "level": 92,
+    "theme": "lotus_master",
+    "title": "Level 92 Lotus Master",
+    "xp_required": 427800
+  },
+  {
+    "level": 93,
+    "theme": "bamboo_dancer",
+    "title": "Level 93 Bamboo Dancer",
+    "xp_required": 437100
+  },
+  {
+    "level": 94,
+    "theme": "cherry_blossom",
+    "title": "Level 94 Cherry Blossom",
+    "xp_required": 446500
+  },
+  {
+    "level": 95,
+    "theme": "oak_guardian",
+    "title": "Level 95 Oak Guardian",
+    "xp_required": 456000
+  },
+  {
+    "level": 96,
+    "theme": "starter",
+    "title": "Level 96 Starter",
+    "xp_required": 465600
+  },
+  {
+    "level": 97,
+    "theme": "explorer",
+    "title": "Level 97 Explorer",
+    "xp_required": 475300
+  },
+  {
+    "level": 98,
+    "theme": "warrior",
+    "title": "Level 98 Warrior",
+    "xp_required": 485100
+  },
+  {
+    "level": 99,
+    "theme": "mage",
+    "title": "Level 99 Mage",
+    "xp_required": 495000
+  },
+  {
+    "level": 100,
+    "theme": "chef",
+    "title": "Level 100 Chef",
+    "xp_required": 505000
+  }
+]

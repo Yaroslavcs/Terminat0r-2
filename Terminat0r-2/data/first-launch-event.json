@@ -1,0 +1,9 @@
+{
+  "event_type": "first_launch",
+  "title": "Ласкаво просимо в Terminat0r-2",
+  "message": "Твій маскот готовий допомагати. Кожен рівень — новий костюм!",
+  "reward_xp": 50,
+  "reward_gold": 25,
+  "show_mascot": true,
+  "mascot_image": "mascot-01-starter.png"
+}

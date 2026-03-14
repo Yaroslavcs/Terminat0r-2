@@ -33,6 +33,18 @@ def _call_openai(user_input: str) -> str:
     return response.choices[0].message.content.strip()
 
 
+def _call_groq(user_input: str) -> str:
+    from openai import OpenAI
+
+    client = OpenAI(api_key=settings.groq_api_key, base_url="https://api.groq.com/openai/v1")
+    prompt = _load_prompt().replace("{user_input}", user_input)
+    response = client.chat.completions.create(
+        model="llama-3.1-8b-instant",
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return response.choices[0].message.content.strip()
+
+
 def _parse_json(text: str) -> dict:
     text = text.strip()
     text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -44,19 +56,29 @@ def generate_quest(user_input: str) -> dict:
     if not user_input or len(user_input.strip()) < 2:
         raise ValueError("task too short")
 
-    if settings.ai_provider == "openai" and settings.openai_api_key:
-        raw = _call_openai(user_input)
-    else:
-        if not settings.gemini_api_key:
-            return _mock_quest(user_input)
-        raw = _call_gemini(user_input)
+    raw = None
+    try:
+        if settings.ai_provider == "groq" and settings.groq_api_key:
+            raw = _call_groq(user_input)
+        elif settings.ai_provider == "openai" and settings.openai_api_key:
+            raw = _call_openai(user_input)
+        elif settings.gemini_api_key:
+            raw = _call_gemini(user_input)
+    except Exception:
+        raw = None
 
-    data = _parse_json(raw)
-    required = ["title", "monster", "backstory", "reward_gold", "reward_xp", "verification_hint"]
-    for k in required:
-        if k not in data:
-            raise ValueError(f"missing field: {k}")
-    return data
+    if raw:
+        try:
+            data = _parse_json(raw)
+            required = ["title", "monster", "backstory", "reward_gold", "reward_xp", "verification_hint"]
+            for k in required:
+                if k not in data:
+                    raise ValueError(f"missing field: {k}")
+            return data
+        except Exception:
+            pass
+
+    return _mock_quest(user_input)
 
 
 def _mock_quest(user_input: str) -> dict:

@@ -1,4 +1,4 @@
-# lifehack — idea and goals
+# Terminat0r-2 — idea and goals
 
 ## what it is
 

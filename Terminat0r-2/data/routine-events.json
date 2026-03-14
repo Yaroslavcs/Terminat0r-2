@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Щоденні та тижневі справи для Terminat0r-2"
+  },
+  "categories": {
+    "hygiene_health": {
+      "title": "Гігієна та здоров'я",
+      "emoji": "🦷",
+      "event_type": "hygiene"
+    },
+    "kitchen_household": {
+      "title": "Кухня та побут",
+      "emoji": "🍽️",
+      "event_type": "cleaning"
+    },
+    "room_workspace": {
+      "title": "Кімната та робочий простір",
+      "emoji": "🖥️",
+      "event_type": "organization"
+    },
+    "things_care": {
+      "title": "Речі та догляд",
+      "emoji": "🧹",
+      "event_type": "organization"
+    },
+    "health_selfcontrol": {
+      "title": "Здоров'я та самоконтроль",
+      "emoji": "💪",
+      "event_type": "health"
+    }
+  },
+  "daily": [
+    {
+      "id": "daily-hygiene-1",
+      "title": "Почистити зуби основною щіткою",
+      "category": "hygiene_health",
+      "xp": 8,
+      "gold": 5,
+      "order": 1
+    },
+    {
+      "id": "daily-hygiene-2",
+      "title": "Використати міжзубний йоржик для очищення дуг",
+      "category": "hygiene_health",
+      "xp": 6,
+      "gold": 4,
+      "order": 2
+    },
+    {
+      "id": "daily-hygiene-3",
+      "title": "Прочистити проміжки суперфлосом (зубною ниткою)",
+      "category": "hygiene_health",
+      "xp": 8,
+      "gold": 5,
+      "order": 3
+    },
+    {
+      "id": "daily-hygiene-4",
+      "title": "Прополоскати рот спеціальним ополіскувачем",
+      "category": "hygiene_health",
+      "xp": 5,
+      "gold": 3,
+      "order": 4
+    },
+    {
+      "id": "daily-hygiene-5",
+      "title": "Наклеїти ортодонтичний віск на місця, що натирають",
+      "category": "hygiene_health",
+      "xp": 4,
+      "gold": 3,
+      "order": 5
+    },
+    {
+      "id": "daily-hygiene-6",
+      "title": "Очистити зуби монопучковою щіткою",
+      "category": "hygiene_health",
+      "xp": 6,
+      "gold": 4,
+      "order": 6
+    },
+    {
+      "id": "daily-hygiene-7",
+      "title": "Використати іригатор для промивання конструкцій",
+      "category": "hygiene_health",
+      "xp": 10,
+      "gold": 6,
+      "order": 7
+    },
+    {
+      "id": "daily-hygiene-8",
+      "title": "Одягнути еластичні тяги (еластики)",
+      "category": "hygiene_health",
+      "xp": 5,
+      "gold": 3,
+      "order": 8
+    },
+    {
+      "id": "daily-hygiene-9",
+      "title": "Очистити язик скребком",
+      "category": "hygiene_health",
+      "xp": 5,
+      "gold": 3,
+      "order": 9
+    },
+    {
+      "id": "daily-kitchen-1",
+      "title": "Помити брудний посуд у раковині",
+      "category": "kitchen_household",
+      "xp": 12,
+      "gold": 8,
+      "order": 10
+    },
+    {
+      "id": "daily-kitchen-2",
+      "title": "Протерти обідній стіл від крихт та плям",
+      "category": "kitchen_household",
+      "xp": 6,
+      "gold": 4,
+      "order": 11
+    },
+    {
+      "id": "daily-kitchen-3",
+      "title": "Винести пакет зі сміттям",
+      "category": "kitchen_household",
+      "xp": 8,
+      "gold": 5,
+      "order": 12
+    },
+    {
+      "id": "daily-kitchen-4",
+      "title": "Помити миску домашньої тварини",
+      "category": "kitchen_household",
+      "xp": 6,
+      "gold": 4,
+      "order": 13
+    },
+    {
+      "id": "daily-kitchen-5",
+      "title": "Набрати та відфільтрувати питну воду",
+      "category": "kitchen_household",
+      "xp": 5,
+      "gold": 3,
+      "order": 14
+    },
+    {
+      "id": "daily-kitchen-6",
+      "title": "Помити раковину на кухні з мийним засобом",
+      "category": "kitchen_household",
+      "xp": 10,
+      "gold": 6,
+      "order": 15
+    },
+    {
+      "id": "daily-room-1",
+      "title": "Прибрати зайві речі з робочого столу",
+      "category": "room_workspace",
+      "xp": 8,
+      "gold": 5,
+      "order": 16
+    },
+    {
+      "id": "daily-room-2",
+      "title": "Застелити ліжко",
+      "category": "room_workspace",
+      "xp": 6,
+      "gold": 4,
+      "order": 17
+    },
+    {
+      "id": "daily-room-3",
+      "title": "Протерти пил на моніторі та клавіатурі",
+      "category": "room_workspace",
+      "xp": 6,
+      "gold": 4,
+      "order": 18
+    },
+    {
+      "id": "daily-room-4",
+      "title": "Поскладати розкиданий одяг у шафу",
+      "category": "room_workspace",
+      "xp": 8,
+      "gold": 5,
+      "order": 19
+    },
+    {
+      "id": "daily-room-5",
+      "title": "Провітрити приміщення",
+      "category": "room_workspace",
+      "xp": 5,
+      "gold": 3,
+      "order": 20
+    },
+    {
+      "id": "daily-things-1",
+      "title": "Почистити чохол мобільного телефону",
+      "category": "things_care",
+      "xp": 5,
+      "gold": 3,
+      "order": 21
+    },
+    {
+      "id": "daily-things-2",
+      "title": "Приготувати одяг на наступний день",
+      "category": "things_care",
+      "xp": 6,
+      "gold": 4,
+      "order": 22
+    },
+    {
+      "id": "daily-health-1",
+      "title": "Випити склянку чистої води",
+      "category": "health_selfcontrol",
+      "xp": 4,
+      "gold": 2,
+      "order": 23
+    },
+    {
+      "id": "daily-health-2",
+      "title": "Зробити коротку зарядку для шиї",
+      "category": "health_selfcontrol",
+      "xp": 8,
+      "gold": 5,
+      "order": 24
+    },
+    {
+      "id": "daily-health-3",
+      "title": "Прийняти вітаміни або ліки за графіком",
+      "category": "health_selfcontrol",
+      "xp": 6,
+      "gold": 4,
+      "order": 25
+    },
+    {
+      "id": "daily-health-4",
+      "title": "Зробити 15-хвилинну прогулянку",
+      "category": "health_selfcontrol",
+      "xp": 15,
+      "gold": 10,
+      "order": 26
+    },
+    {
+      "id": "daily-health-5",
+      "title": "Прийняти гігієнічний душ",
+      "category": "health_selfcontrol",
+      "xp": 10,
+      "gold": 6,
+      "order": 27
+    },
+    {
+      "id": "daily-health-6",
+      "title": "Зробити вправи для очей",
+      "category": "health_selfcontrol",
+      "xp": 5,
+      "gold": 3,
+      "order": 28
+    },
+    {
+      "id": "daily-health-7",
+      "title": "Записати витрати за день у блокнот",
+      "category": "health_selfcontrol",
+      "xp": 6,
+      "gold": 4,
+      "order": 29
+    },
+    {
+      "id": "daily-health-8",
+      "title": "Скласти список справ на завтра",
+      "category": "health_selfcontrol",
+      "xp": 8,
+      "gold": 5,
+      "order": 30
+    },
+    {
+      "id": "daily-health-9",
+      "title": "Вчасно лягти спати",
+      "category": "health_selfcontrol",
+      "xp": 10,
+      "gold": 6,
+      "order": 31
+    }
+  ],
+  "weekly": [
+    {
+      "id": "weekly-hygiene-1",
+      "title": "Продезінфікувати футляр для воску та щіток",
+      "category": "hygiene_health",
+      "xp": 15,
+      "gold": 10,
+      "order": 1
+    },
+    {
+      "id": "weekly-kitchen-1",
+      "title": "Помити внутрішню поверхню мікрохвильовки",
+      "category": "kitchen_household",
+      "xp": 18,
+      "gold": 12,
+      "order": 2
+    },
+    {
+      "id": "weekly-kitchen-2",
+      "title": "Очистити чайник від накипу",
+      "category": "kitchen_household",
+      "xp": 15,
+      "gold": 10,
+      "order": 3
+    },
+    {
+      "id": "weekly-kitchen-3",
+      "title": "Протерти фасади кухонних шаф",
+      "category": "kitchen_household",
+      "xp": 20,
+      "gold": 14,
+      "order": 4
+    },
+    {
+      "id": "weekly-kitchen-4",
+      "title": "Помити підлогу в зоні готування",
+      "category": "kitchen_household",
+      "xp": 22,
+      "gold": 15,
+      "order": 5
+    },
+    {
+      "id": "weekly-kitchen-5",
+      "title": "Розібрати зіпсовані продукти в холодильнику",
+      "category": "kitchen_household",
+      "xp": 15,
+      "gold": 10,
+      "order": 6
+    },
+    {
+      "id": "weekly-kitchen-6",
+      "title": "Скласти пакети в один пакет («пакет з пакетами»)",
+      "category": "kitchen_household",
+      "xp": 8,
+      "gold": 5,
+      "order": 7
+    },
+    {
+      "id": "weekly-room-1",
+      "title": "Протерти підвіконня",
+      "category": "room_workspace",
+      "xp": 12,
+      "gold": 8,
+      "order": 8
+    },
+    {
+      "id": "weekly-room-2",
+      "title": "Полити кімнатні рослини",
+      "category": "room_workspace",
+      "xp": 10,
+      "gold": 6,
+      "order": 9
+    },
+    {
+      "id": "weekly-room-3",
+      "title": "Протерти пил на полицях з книгами",
+      "category": "room_workspace",
+      "xp": 15,
+      "gold": 10,
+      "order": 10
+    },
+    {
+      "id": "weekly-room-4",
+      "title": "Помити дзеркало в кімнаті або коридорі",
+      "category": "room_workspace",
+      "xp": 12,
+      "gold": 8,
+      "order": 11
+    },
+    {
+      "id": "weekly-room-5",
+      "title": "Пропилотяжити килим або підлогу",
+      "category": "room_workspace",
+      "xp": 25,
+      "gold": 18,
+      "order": 12
+    },
+    {
+      "id": "weekly-room-6",
+      "title": "Скласти дроти та зарядні пристрої",
+      "category": "room_workspace",
+      "xp": 10,
+      "gold": 6,
+      "order": 13
+    },
+    {
+      "id": "weekly-things-1",
+      "title": "Помити брудне взуття",
+      "category": "things_care",
+      "xp": 15,
+      "gold": 10,
+      "order": 14
+    },
+    {
+      "id": "weekly-things-2",
+      "title": "Випрати дрібні речі (шкарпетки/білизну)",
+      "category": "things_care",
+      "xp": 18,
+      "gold": 12,
+      "order": 15
+    },
+    {
+      "id": "weekly-things-3",
+      "title": "Протерти сумку або рюкзак вологою серветкою",
+      "category": "things_care",
+      "xp": 10,
+      "gold": 6,
+      "order": 16
+    },
+    {
+      "id": "weekly-things-4",
+      "title": "Почистити навушники-вкладиші",
+      "category": "things_care",
+      "xp": 8,
+      "gold": 5,
+      "order": 17
+    },
+    {
+      "id": "weekly-things-5",
+      "title": "Розібрати паперові чеки в гаманці",
+      "category": "things_care",
+      "xp": 10,
+      "gold": 6,
+      "order": 18
+    },
+    {
+      "id": "weekly-things-6",
+      "title": "Почистити гребінець для волосся",
+      "category": "things_care",
+      "xp": 8,
+      "gold": 5,
+      "order": 19
+    }
+  ]
+}
